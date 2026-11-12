@@ -8,16 +8,16 @@ echo "Insert your first name"
 read -r firstname
 
 echo "insert your last name"
-echo -r lastname
+read -r lastname
 
 # Creates a new file named output.txt.
 touch output.txt
 
 # Writes the current date to output.txt using the date command.
-date "+%d-%m-%Y" > output.txt
+date '+%d-%m-%Y' > output.txt
 
 # Writes your full name to output.txt.
-echo "Your first and lastname are: $firstname $lastname" > output.txt
+echo "Your first and lastname are: $firstname $lastname" >> output.txt
 
 # Makes a backup copy of output.txt, named backup.txt, using the cp command.
 cp output.txt backup.txt
