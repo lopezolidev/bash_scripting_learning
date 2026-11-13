@@ -11,3 +11,6 @@ while [[ ! -f "${SIGNAL_TO_STOP_LOOP}" ]]; do
     sleep 2
     # pausing the loop (process) for 2 seconds
 done
+
+echo "File was found! exiting..."
+# when file stoploop is found
