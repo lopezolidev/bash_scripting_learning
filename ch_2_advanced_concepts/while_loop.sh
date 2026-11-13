@@ -9,7 +9,7 @@ while [[ ! -f "${SIGNAL_TO_STOP_LOOP}" ]]; do
     echo "Checking again in 2 seconds..."
     # control messages
     sleep 2
-    # exit 2 <- no difference whatsoever if this is used instead of sleep.
+    # exit 2 <- the process gets blocked after immediatly, its a form of 'break' statement.
     # pausing the loop (process) for 2 seconds
 done
 
