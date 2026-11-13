@@ -1,0 +1,1 @@
+./stderr.sh: línea 3: lzl: orden no encontrada
