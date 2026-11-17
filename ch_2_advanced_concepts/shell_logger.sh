@@ -30,7 +30,8 @@ if [[ -z "$SESSION_RECORDED" ]]; then
     script -f -a "$HOME/sessions/${FILENAME}"
     # Capturing all the current session activity of the terminal an output to 
     # the file FILENAME in the specified path
-
+ 
+ 
     exit 
     # closing the capturing session and avoiding infinite loop
 fi
