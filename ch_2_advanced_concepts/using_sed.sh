@@ -21,3 +21,4 @@ sed -n '2,15 p' log.txt
 
 # Making the alteration to the original file
 sed -i '1d' log.txt
+
