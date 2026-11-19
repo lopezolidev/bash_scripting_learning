@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Identify Network range for the specified IP address(es)
 function network_range {
     for ip in $ip_addr
     do
